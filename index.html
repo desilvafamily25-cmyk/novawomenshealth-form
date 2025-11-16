@@ -909,7 +909,7 @@ async function submitForm() {
         const result = await response.json();
 
         if (!response.ok) {
-            alert("Submission error:\\n" + JSON.stringify(result, null, 2));
+            alert("Submission error:\n" + JSON.stringify(result, null, 2));
             return;
         }
 
@@ -924,3 +924,4 @@ async function submitForm() {
 
 </body>
 </html>
+
